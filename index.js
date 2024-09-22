@@ -47,8 +47,58 @@ fruitsArray.push("grape");
 
 let vehicle = ["car", "bike", "bus"];
 
-console.log(vehicle);
+// console.log(vehicle);
 
 vehicle.shift();
 
-console.log("remove first element :", vehicle);
+// console.log("remove first element :", vehicle);
+
+//problem--7
+
+
+let waterVehicle = ["boat", "ship"];
+
+// console.log(waterVehicle);
+
+
+waterVehicle.unshift("plane");
+waterVehicle.unshift("train");
+// console.log(waterVehicle);
+
+//problem--8
+
+let animal = ["dog", "cat", "bird"];
+
+// console.log(animal);
+
+animal.splice(1, 1);
+
+// console.log(animal);
+
+
+// problem--9
+
+
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+
+// console.log("Merge two array ", arr1.concat(arr2));
+
+
+// problem--10
+
+let array = ["a", "b", "c", "d", "e", "f"];
+
+// console.log(array);
+
+array.splice(2, 3);
+
+// console.log(array);
+
+// problem--11
+
+let number = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "nineth"];
+console.log(number);
+
+console.log("index 4 is ",
+    number[3]);
