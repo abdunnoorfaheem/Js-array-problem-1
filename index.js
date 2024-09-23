@@ -98,7 +98,123 @@ array.splice(2, 3);
 // problem--11
 
 let number = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "nineth"];
-console.log(number);
+// console.log(number);
 
-console.log("index 4 is ",
-    number[3]);
+// console.log("index 4 is ",
+//     number[3]);
+
+
+// problem--12
+
+
+let longString = "apple banana cherry  date Apple Banana Cherry Date Elderberry fennel Fig Grape Honeydew Kiwi"
+
+// console.log(longString.indexOf("fennel"));
+
+
+// problem--13
+
+let fruitsList = ["apple", "banana", "cherry", "date", "fig"];
+
+// console.log(fruitsList);
+fruitsList.pop();
+fruitsList.pop();
+// console.log("After removing last two element :",
+//     fruitsList);
+
+//problem--14
+
+
+let animalList = ["dog", "cat", "fish", "bird"];
+
+// console.log(animalList);
+let newString = animalList.toString();
+
+// console.log("Array to String ", newString);
+
+//problem--15
+
+
+let newFruits = ["apple", "orange", "banana", "grape"];
+
+// console.log(newFruits);
+
+let newFruitsList = newFruits.join(" - ");
+// console.log("New Fruits List", newFruitsList);
+
+
+//problem--16
+
+let arrayLetter = ["b", "c", "d"];
+
+// console.log(arrayLetter);
+arrayLetter.unshift("a", "b", "c");
+// console.log(arrayLetter);
+
+
+// problem--17
+
+
+let numberArray = [1, 2, 3, 4, 5];
+
+// console.log(numberArray);
+
+delete numberArray[3]
+
+// console.log(numberArray);
+
+
+//problem--18
+
+let arrOne = [1, 2, 3];
+let arrTwo = [4, 5, 6];
+
+let newConcatArray = arrOne.concat(arrTwo);
+let element = newConcatArray.slice(0, 4);
+// console.log(element);
+
+//problem--19
+
+let letterArray = ["a", "b", "c", "d", "e"];
+
+// console.log(letterArray);
+delete letterArray[1];
+delete letterArray[2];
+// console.log(letterArray);
+letterArray[1] = "x";
+letterArray[2] = "y";
+// console.log(letterArray);
+
+// problem--20
+
+let arrayHave = [10, 20, 30, 40, 50];
+
+// console.log(arrayHave);
+
+
+let arrayNew = arrayHave.slice(1, 4);
+
+// console.log(arrayNew);
+
+
+
+
+
+
+// problem--21
+
+let numberArrayList = [1, 2, 3, 4, 5];
+let makeString = numberArrayList.join();
+// console.log(makeString);
+
+let arrayNumber = makeString.split();
+// console.log(arrayNumber);
+
+//problem--22
+
+
+let arrayPrint = ["a", "b", "c", "d", "e", "f"];
+
+console.log(arrayPrint);
+console.log("First Element of an Array : ", arrayPrint.at(0));
+console.log("Last Element of an Array : ", arrayPrint.at(5));
