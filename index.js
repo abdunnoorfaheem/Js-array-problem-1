@@ -87,7 +87,7 @@ let arr2 = [4, 5, 6];
 
 // problem--10
 
-let array = ["a", "b", "c", "d", "e", "f"];
+// let array = ["a", "b", "c", "d", "e", "f"];
 
 // console.log(array);
 
@@ -218,23 +218,3 @@ let arrayPrint = ["a", "b", "c", "d", "e", "f"];
 // console.log(arrayPrint);
 // console.log("First Element of an Array : ", arrayPrint.at(0));
 // console.log("Last Element of an Array : ", arrayPrint.at(5));
-
-
-//Write a function named calculateAverage. The function should take the array [12, 45, 78, 23] as input and return the average of the numbers.
-
-
-let arr = [12, 45, 78, 23];
-
-function calculateAverage(array) {
-    let s = 0;
-
-    for (let i = 0; i < array.length; i++) {
-        s = s + array[i];
-
-    }
-    let avg = s / array.length;
-    return avg;
-}
-
-let result = calculateAverage(arr);
-console.log(result);
